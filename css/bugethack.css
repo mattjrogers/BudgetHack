@@ -5,25 +5,54 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-h2{
+h2, h3{
 	font-family: 'Roboto', sans-serif;
 	padding:0px;margin:0px;
 	color:#ccc;
 }
 
+p a {
+	background:#BA6FE4;
+	padding:2px;
+	color:#FFFFFF;
+}
+p a:hover {
+	background:#9D34DA;
+	color:#FFFFFF;
+	text-decoration:none;
+	cursor:pointer;cursor:hand;
+}
 
-    /* Extra Small Devices, Phones */ 
-    @media only screen and (min-width : 480px) {
-			ul.navigation li {
-		display:inline;
-	} 
-	.budgethack_titlename{
-		margin-top:10px;
-	}
-	.budgethack_tagline{
-		display:none;
-	}
-    }
+ul.navigation{
+	float:right;
+	padding:0px;margin:0px
+}
+ul.navigation li {
+	display:inline;
+	padding:0px;margin:0px;
+	list-style-type:none;
+} 
+.budgethack_titlename{
+	margin-top:10px;
+	margin-bottom:10px;
+	float:left;
+}
+.budgethack_tagline{
+	display:none;
+	padding-bottom:20px;
+	border-bottom:1px solid #ccc;
+	margin-bottom:20px;
+}
+.maincontent{
+	background:#E3E3E3;
+	padding:0px;margin:0px;
+}
+.budgethack_section_header{
+	margin-top:75px;
+		margin-bottom:25px;
+		float:none;
+		display:block;
+}
 
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
@@ -32,11 +61,18 @@ h2{
 
     /* Medium Devices, Desktops */
     @media only screen and (min-width : 992px) {
+	ul.navigation{
+		float:none;
+	}
 	ul.navigation li {
 		display:block;
+		margin-bottom:10px;
 	} 
 	.budgethack_titlename{
 		margin-top:50px;
+		margin-bottom:25px;
+		float:none;
+		display:block;
 	}
 	.budgethack_tagline{
 		display:block;

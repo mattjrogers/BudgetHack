@@ -23,24 +23,53 @@
     <![endif]-->
   </head>
   <body>
-    <div class="row">
+	<div class="row">
     
-    <div class="col-xs-12 col-md-4 col-lg-3" style="background:white;">
-    <div class="col-xs-10 col-xs-offset-1" style="background:white;">
-    	<h2 class="budgethack_titlename">#BudgetHack</h2>
-    	<p class="budgethack_tagline">Examining rates of innovation in relation to local government budgets</p>
+    	<div class="col-xs-12 col-md-4 col-lg-3" style="background:white;">
+    	<div class="row">
+    
+   	 		<div class="col-xs-10 col-xs-offset-1" style="background:white;">
+    		<h2 class="budgethack_titlename">#BudgetHack</h2>
+    		<p class="budgethack_tagline">Examining rates of innovation in relation to local government budgets. A project by <a href="http://www.perthurbanist.com">Perth Urbanist</a></p>
         
-    	<ul class="navigation">
-    		<li><a href="#">About</a></li>
-       		<li><a href="#">Demo</a></li>
-    	</ul>
+    		<ul class="navigation">
+    			<li><a href="#"><button type="button" class="btn btn-default">About Project</button></a></li>
+       			<li><a href="#"><button type="button" class="btn btn-default">Live Demo</button></a></li>
+           	<li><a href="#"><button type="button" class="btn btn-default">GitHub</button></a></a></li>
+    		</ul>
+    		</div>
+            
     	</div>
+    	</div>
+    
+    	<div class="col-xs-12 col-md-8 col-lg-9">
+    	<div class="row">
+        	<div class="col-xs-12 maincontent">
+            	<!-- UPDATE Placeholder video -->
+    			<div class="embed-responsive embed-responsive-16by9">
+    			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/N49wS0wpJyw" frameborder="0" allowfullscreen></iframe>
+    			<h2 class="budgethack_titlename">Place Holder Video</h2>
+    			</div>
+                
+                <div class="row">
+                <div class="col-xs-10 col-xs-offset-1">
+                <h3 class="budgethack_section_header">Header Large</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h3 class="budgethack_section_header">Header Large</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h3 class="budgethack_section_header">Header Large</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                </div>
+                
+       		</div>
+    	</div>
+ 		</div>
         
-    </div>
-    <div class="col-xs-12 col-md-8 col-lg-9" style="background:lightgrey;">
-    Content
-    </div>
- 
 	</div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
