@@ -8,7 +8,6 @@ body {
 h2, h3{
 	font-family: 'Roboto', sans-serif;
 	padding:0px;margin:0px;
-	color:#ccc;
 }
 
 p a {
@@ -36,6 +35,7 @@ ul.navigation li {
 	margin-top:10px;
 	margin-bottom:10px;
 	float:left;
+	color:#ccc;
 }
 .budgethack_tagline{
 	display:none;
@@ -44,7 +44,7 @@ ul.navigation li {
 	margin-bottom:20px;
 }
 .maincontent{
-	background:#E3E3E3;
+	background:#F7F7F7;
 	padding:0px;margin:0px;
 }
 .budgethack_section_header{
@@ -52,6 +52,17 @@ ul.navigation li {
 		margin-bottom:25px;
 		float:none;
 		display:block;
+		color:#3B3B3B;
+}
+.numberstyle{
+		background-color:#3B3B3B;
+		padding:5px;
+		padding:left:10px;padding-right:10px;
+		color:#ffffff;
+		margin-right:10px;
+}
+.budgethack_rowfix{
+padding:0px;margin:0px;width:100%;
 }
 
     /* Small Devices, Tablets */
