@@ -11,23 +11,39 @@ h2{
 	color:#ccc;
 }
 
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { 
-	ul.navigation li {
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+			ul.navigation li {
 		display:inline;
 	} 
-}
+	.budgethack_titlename{
+		margin-top:10px;
+	}
+	.budgethack_tagline{
+		display:none;
+	}
+    }
 
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { 
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
 	ul.navigation li {
 		display:block;
 	} 
-}
+	.budgethack_titlename{
+		margin-top:50px;
+	}
+	.budgethack_tagline{
+		display:block;
+	}
+    }
 
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { 
-}
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }

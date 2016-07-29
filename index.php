@@ -25,10 +25,10 @@
   <body>
     <div class="row">
     
-    <div class="col-xs-12 col-md-4 col-lg-2" style="background:white;">
+    <div class="col-xs-12 col-md-4 col-lg-3" style="background:white;">
     <div class="col-xs-10 col-xs-offset-1" style="background:white;">
-    	<h2>#BudgetHack</h2>
-    	<p>Examining rates of innovation in relation to local government budgets</p>
+    	<h2 class="budgethack_titlename">#BudgetHack</h2>
+    	<p class="budgethack_tagline">Examining rates of innovation in relation to local government budgets</p>
         
     	<ul class="navigation">
     		<li><a href="#">About</a></li>
@@ -37,7 +37,7 @@
     	</div>
         
     </div>
-    <div class="col-xs-12 col-md-8 col-lg-10" style="background:lightgrey;">
+    <div class="col-xs-12 col-md-8 col-lg-9" style="background:lightgrey;">
     Content
     </div>
  
