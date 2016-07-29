@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>#BudgetHack</title>
+    <title>#BudgetHack | About Project</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -34,9 +34,9 @@
     		<p class="budgethack_tagline">Examining rates of innovation in relation to local government budgets. A project by <a href="http://www.perthurbanist.com">Perth Urbanist</a></p>
         
     		<ul class="navigation">
-    			<li><a href="#"><button type="button" class="btn btn-default">About Project</button></a></li>
-       			<li><a href="#"><button type="button" class="btn btn-default">Live Demo</button></a></li>
-           	<li><a href="#"><button type="button" class="btn btn-default">GitHub</button></a></a></li>
+    			<li><a href="http://perthurbanist.com/govhack/2016/index.php"><button type="button" class="btn btn-default">About Project</button></a></li>
+       			<li><a href="http://perthurbanist.com/govhack/2016/demo.php"><button type="button" class="btn btn-default">Live Demo</button></a></li>
+           	<li><a href="https://github.com/mattjrogers/BudgetHack"><button type="button" class="btn btn-default">GitHub (source code)</button></a></a></li>
     		</ul>
     		</div>
             
@@ -59,10 +59,24 @@
                 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 	<h3 class="budgethack_section_header"><span class="numberstyle">02</span> The Team</h3>
                 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    
+                    <div class="row thepeople">
+                    
+                    <div class="col-sm-4 col-lg-3">Picture</div>
+                    <div class="col-sm-6 col-lg-3 thepeople_smallfix"><h4 class="thepeople_title">Matt Rogers</h4>
+                    <p class="jobtitle">Code Monkey</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+                    <div class="col-sm-4 col-lg-3">Picture</div>
+                    <div class="col-sm-6 col-lg-3"><h4 class="thepeople_title">Peter Rogers</h4>
+                    <p class="jobtitle">Jack of all trades</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+                    
+                    </div>
+                    
                 	<h3 class="budgethack_section_header"><span class="numberstyle">03</span> More Information</h3>
                 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <div class="footer"><p>Project was created within 46 Hours for <a href="https://www.govhack.org/">GovHack 2016</a>.</p></div>
                 	</div>
                </div>
                 

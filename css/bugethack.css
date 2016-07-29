@@ -5,7 +5,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-h2, h3{
+h2, h3, h4{
 	font-family: 'Roboto', sans-serif;
 	padding:0px;margin:0px;
 }
@@ -64,6 +64,25 @@ ul.navigation li {
 .budgethack_rowfix{
 padding:0px;margin:0px;width:100%;
 }
+.footer{
+	margin-top:80px;
+	padding-top:20px;
+	margin-bottom:25px;
+	color:#ccc;
+	border-top:1px solid #ccc;
+}
+.jobtitle{
+	font-style:italic;
+}
+.thepeople{
+	margin-top:75px;
+}
+.thepeople_title{
+	margin-bottom:10px;
+}
+.thepeople_smallfix{
+	margin-bottom:25px;
+}
 
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
@@ -92,5 +111,7 @@ padding:0px;margin:0px;width:100%;
 
     /* Large Devices, Wide Screens */
     @media only screen and (min-width : 1200px) {
-
+.thepeople_smallfix{
+	margin-bottom:0px;
+}
     }
