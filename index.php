@@ -69,7 +69,7 @@
                     <div class="col-sm-4 col-lg-3"><img src="https://scontent.fper1-1.fna.fbcdn.net/t31.0-8/11221911_845953302106563_5424021105831229054_o.jpg" width="100%"/></div>
                     <div class="col-sm-6 col-lg-3"><h4 class="thepeople_title">Peter Rogers</h4>
                     <p class="jobtitle">Jack of All Trades</p>
-                    <p>Peter is employed as a Governance Officer for the Gumala Foundation, a charitable trust which provides poverty alleviation projects the Banyjima, Innawonga and Nyiyaparli peoples of the Pilbara in the areas of health, education, housing, community development and culture preservation. Peter was also elected as a Councillor to the City of Mandurah in 2014, and has served on several community boards for the arts, environmental protection and mental health services.</p></div>
+                    <p>Peter is employed as a Governance Officer for the Gumala Foundation, a charitable trust which provides poverty alleviation projects to the Banyjima, Innawonga and Nyiyaparli peoples of the Pilbara in the areas of health, education, housing, community development and culture preservation. Peter was also elected as a Councillor to the City of Mandurah in 2014, and has served on several community boards for the arts, environmental protection and mental health services.</p></div>
                     
                     </div>
                     
