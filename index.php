@@ -74,7 +74,7 @@
                     </div>
                     
                 	<h3 class="budgethack_section_header"><span class="numberstyle">03</span> More Information</h3>
-                	<p>#BudgetHack will be using data from the Department of Local Government and Communities' MyCouncil and the Department of Industry, Innovation and Sciene's Region Innovation Data 2009-2015.</p>
+                	<p>#BudgetHack will be using data from the Department of Local Government and Communities' MyCouncil, the Department of Industry, Innovation and Sciene's Region Innovation Data 2009-2015 and the ABS' Digital Boundaries for GIS.</p>
                 	<p>#BudgetHack will be entered into the Western Australian Community Prize, the Western Australian Solution Prize and the Western Australian Entrepeneurial Prize.</p>
                     <div class="footer"><p>Project was created within 46 Hours for <a href="https://www.govhack.org/">GovHack 2016</a>.</p></div>
                 	</div>
