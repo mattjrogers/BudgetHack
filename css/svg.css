@@ -3,12 +3,16 @@
 
 path {
     fill: lightblue;
+	stroke-width:1px;
+	stroke:white;
 	cursor:pointer;cursor:hand;
 	pointer-events:all;
 }​
 
 path:hover {
     fill: black;
+	pointer-events:all;
+	stroke-width:3px;
 	cursor:pointer;cursor:hand;
 }​
 

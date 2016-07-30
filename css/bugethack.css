@@ -54,6 +54,16 @@ ul.navigation li {
 		display:block;
 		color:#3B3B3B;
 }
+.budgethack_section_header2{
+		margin-top:25px;
+		text-align:center;
+		padding-bottom:25px;
+		margin-bottom:25px;
+		float:none;
+		width:100%;
+		display:block;
+		color:#3B3B3B;
+}
 .numberstyle{
 		background-color:#3B3B3B;
 		padding:5px;
@@ -83,7 +93,11 @@ padding:0px;margin:0px;width:100%;
 .thepeople_smallfix{
 	margin-bottom:25px;
 }
-
+.datatspacer{
+	height:50px;
+	margin-top:50px;
+	border-top:1px solid #ccc;
+}
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
 
