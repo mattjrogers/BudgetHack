@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* SVG Styling */
+
+path {
+    fill: lightblue;
+	cursor:pointer;cursor:hand;
+	pointer-events:all;
+}​
+
+path:hover {
+    fill: black;
+	cursor:pointer;cursor:hand;
+}​
+

@@ -51,10 +51,10 @@
                   <div class="col-xs-10 col-xs-offset-1">
                   <div class="row budgethack_rowfix">
                		 <div class="col-xs-12 col-md-6">
-               		 <img src="data/lgwa.svg" alt="logogovernment">
+               		 <img src="data/lgwa2.svg" alt="logogovernment">
                 		</div>
                 		<div class="col-xs-12 col-md-6">
-                		<img src="data/lgwa.svg" alt="logogovernment">
+                        <object data="data/optimised.svg" type="image/svg+xml"><img src="yourfallback.jpg" /></object>
                 		</div>
                 		</div>
                         </div>

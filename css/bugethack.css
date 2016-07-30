@@ -84,12 +84,6 @@ padding:0px;margin:0px;width:100%;
 	margin-bottom:25px;
 }
 
-/* SVG Styling */
-
-svg:hover path {
-    fill: blue;
-}
-
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
 
