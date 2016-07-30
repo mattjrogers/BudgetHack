@@ -62,11 +62,11 @@
                     
                     <div class="row thepeople">
                     
-                    <div class="col-sm-4 col-lg-3">Picture</div>
+                    <div class="col-sm-4 col-lg-3"><img src="http://m.c.lnkd.licdn.com/media/AAEAAQAAAAAAAAlcAAAAJGZhMjYwYWRiLTBiOTAtNDBkMy05ZTkwLWIwYmI5ZDdlYjkyOQ.jpg" width="100%"/></div>
                     <div class="col-sm-6 col-lg-3 thepeople_smallfix"><h4 class="thepeople_title">Matt Rogers</h4>
                     <p class="jobtitle">Code Monkey</p>
                     <p>Matt has a passion for community development and urban planning. Currently he is employed as a planner at leading international, multidisciplinary design studio HASSELL and is a board member of The Makers, a regional based NGO which provides a range of innovative services and projects across Western Australia and the Northern Territory that aim to build the capacity of communities. Matt was awarded PIA WA Young Planner of the Year for 2014 for demonstrating a commitment to improving community engagement through the projects and organisations.</p></div>
-                    <div class="col-sm-4 col-lg-3">Picture</div>
+                    <div class="col-sm-4 col-lg-3"><img src="https://scontent.fper1-1.fna.fbcdn.net/t31.0-8/11221911_845953302106563_5424021105831229054_o.jpg" width="100%"/></div>
                     <div class="col-sm-6 col-lg-3"><h4 class="thepeople_title">Peter Rogers</h4>
                     <p class="jobtitle">Jack of All Trades</p>
                     <p>Peter is employed as a Governance Officer for the Gumala Foundation, a charitable trust which provides poverty alleviation projects the Banyjima, Innawonga and Nyiyaparli peoples of the Pilbara in the areas of health, education, housing, community development and culture preservation. Peter was also elected as a Councillor to the City of Mandurah in 2014, and has served on several community boards for the arts, environmental protection and mental health services.</p></div>
