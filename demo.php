@@ -46,9 +46,38 @@
     	<div class="col-xs-12 col-md-8 col-lg-9">
     	<div class="row">
         	<div class="col-xs-12 maincontent">
-            	
-                Content here!
+            
+            	  <div class="row budgethack_rowfix">
+                  <div class="col-xs-10 col-xs-offset-1">
+                  <div class="row budgethack_rowfix">
+               		 <div class="col-xs-12 col-md-6">
+               		 <img src="data/lgwa.svg" alt="logogovernment">
+                		</div>
+                		<div class="col-xs-12 col-md-6">
+                		<img src="data/lgwa.svg" alt="logogovernment">
+                		</div>
+                		</div>
+                        </div>
+                </div>
+                <div class="row">
+                <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
                 
+                <div class="btn-group btn-group-justified" role="group" aria-label="...">
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-default">2013</button>
+  </div>
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-default">2014</button>
+  </div>
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-default">2015</button>
+  </div>
+</div>
+                
+                </div>
+                </div>
+                
+                <div class="footer"><p>Project was created within 46 Hours for <a href="https://www.govhack.org/">GovHack 2016</a>.</p></div>
        		</div>
     	</div>
  		</div>
