@@ -54,7 +54,7 @@
                <div class="row budgethack_rowfix">
                	<div class="col-xs-10 col-xs-offset-1">
                 	<h3 class="budgethack_section_header"><span class="numberstyle">01</span> About #BudgetHack</h3>
-                	<p>#BudgetHack is project undertaken by Perth Urbanist for GovHack 2016. The aim of our project is to use data from the Department of Local Government and Communities' MyCouncil and explore corrolations between what local government spends its money on and the rate of return in terms of measures of innovation.</p>
+                	<p>#BudgetHack is project undertaken by Perth Urbanist for GovHack 2016. The aim of our project is to use data from the Department of Local Government and Communities' MyCouncil and the Department of Industry, Innovation and Science's Region Innovation Data to explore corrolations between what local government spends its money on and the rate of return in terms of measures of innovation.</p>
                 	<p>Perth Urbanist seeks to promote the appreciation and awareness of Perth’s cultural assets, architectural gems and social fringe; whilst curating events and establishing projects that will expose people to an alternative perspective of Perth.</p>
                 	<p>Perth Urbanist is an independent and open collective created by young professionals, with the goal of sharing ideas and projects which will ultimately have a positive effect on the urban landscape and culture of Perth.</p>
                 	<h3 class="budgethack_section_header"><span class="numberstyle">02</span> The Team</h3>
@@ -74,8 +74,8 @@
                     </div>
                     
                 	<h3 class="budgethack_section_header"><span class="numberstyle">03</span> More Information</h3>
-                	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                	<p>#BudgetHack will be using data from the Department of Local Government and Communities' MyCouncil and the Department of Industry, Innovation and Sciene's Region Innovation Data 2009-2015.</p>
+                	<p>#BudgetHack will be entered into the Western Australian Community Prize.</p>
                     <div class="footer"><p>Project was created within 46 Hours for <a href="https://www.govhack.org/">GovHack 2016</a>.</p></div>
                 	</div>
                </div>
