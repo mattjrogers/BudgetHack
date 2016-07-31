@@ -98,6 +98,25 @@ padding:0px;margin:0px;width:100%;
 	margin-top:50px;
 	border-top:1px solid #ccc;
 }
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.x.axis path {
+  display: none;
+}
+.localgovchart{
+	width:100%;
+	background-size: contain;
+}
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
 

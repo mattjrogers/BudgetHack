@@ -13,6 +13,7 @@
     
     <!-- Web Fonts -->
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto:700' rel='stylesheet' type='text/css'>
+    <link href='https://api.tiles.mapbox.com/mapbox.js/v2.2.4/mapbox.css' rel='stylesheet' />
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -47,6 +48,7 @@
     	<div class="row">
         	<div class="col-xs-12 maincontent">
             <div class="row" style="margin-bottom:25px;margin-top:50px;">
+            <p style="text-align:center;">Select time series</p>
                 <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
                 
                 <div class="btn-group btn-group-justified" role="group" aria-label="...">
@@ -67,23 +69,63 @@
                   <div class="col-xs-10 col-xs-offset-1">
                   <div class="row budgethack_rowfix">
                		 <div class="col-xs-12 col-md-6">
-                     		 <object data="data/lgwa2.svg" type="image/svg+xml"><img src="yourfallback.jpg" /></object>
-                            <h3 class="budgethack_section_header2">Local Government Budgets</h3>
+                     		 <object id="localgovernment" data="data/lgwa2.svg" type="image/svg+xml"><img src="yourfallback.jpg" /></object>
+                            <h3 class="budgethack_section_header2">Local Government Expenditures</h3>
+                            <P STYLE="text-align:center">Local government areas</P>
                 		</div>
                 		<div class="col-xs-12 col-md-6">
-                        <object data="data/lgwa2.svg" type="image/svg+xml"><img src="yourfallback.jpg" /></object>
+                  <object data="data/lgwa2.svg" type="image/svg+xml"><img src="yourfallback.jpg" /></object>
                         <h3 class="budgethack_section_header2">Regional Innovation</h3>
+                        <p STYLE="text-align:center">Innovation data is within a SA3 resolution</p>
                 		</div>
                 		</div>
                         </div>
-                        
-                        
                 </div>
                 
                 <div class="row budgethack_rowfix">
                   <div class="col-xs-10 col-xs-offset-1">
                   <div class="datatspacer"></div>
-                	D3.js Here  
+					<div id="container2">
+                    <div class="row" style="margin-top:75px;">
+                     <div class="col-xs-6 col-sm-2" style="height:80px;background:white;text-align:center;padding-top:20px;">Legend</div>
+                     
+                    	<div class="col-xs-6 col-sm-2" style="background:#523B95;height:80px;color:#fff;text-align:center;padding-top:20px;">Transport</div>
+                      <div class="col-xs-6 col-sm-2" style="background:#9B3E97;height:80px;color:#fff;text-align:center;padding-top:20px;">Recreation and Culture</div>
+                      <div class="col-xs-6 col-sm-2" style="background:#B71E50;height:80px;color:#fff;text-align:center;padding-top:20px;">Other Property and Services</div>
+                      <div class="col-xs-6 col-sm-2" style="background:#E41070;height:80px;color:#fff;text-align:center;padding-top:20px;">Law, Order, Public Safety</div>
+                      <div class="col-xs-6 col-sm-2" style="background:#EA7EB2;height:80px;color:#fff;text-align:center;padding-top:20px;">Housing</div>
+                     
+                    </div>
+                    <div class="row" style="margin-bottom:75px;">
+                     <div class="col-xs-6 col-sm-2" style="background:#97B0DB;height:80px;color:#fff;text-align:center;padding-top:20px;">Health</div>
+                    	<div class="col-xs-6 col-sm-2" style="background:#72CBE9;height:80px;color:#fff;text-align:center;padding-top:20px;">Governance</div>
+                      <div class="col-xs-6 col-sm-2" style="background:#A6CAC7;height:80px;color:#fff;text-align:center;padding-top:20px;">General Purpose Funding</div>
+                      <div class="col-xs-6 col-sm-2" style="background:#98CB60;height:80px;color:#fff;text-align:center;padding-top:20px;">Education and Welfare</div>
+                      <div class="col-xs-6 col-sm-2" style="background:#00A668;height:80px;color:#fff;text-align:center;padding-top:20px;">Economic Services</div>
+                      <div class="col-xs-6 col-sm-2" style="background:#19773C;height:80px;color:#fff;text-align:center;padding-top:20px;">Community Amenities</div>
+                    </div>
+                    
+                    <div class="row" style="margin-bottom:50px;margin-top:50px;">
+                <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
+                <p style="text-align:center;">Sort table by</p>
+                <div class="btn-group btn-group-justified" role="group" aria-label="...">
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-default">LG expenditure</button>
+  </div>
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-default">No. of Patents</button>
+  </div>
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-default">No. of New Businesses</button>
+  </div>
+</div>
+                
+                </div>
+                </div>
+                    
+                    
+					<svg id="chart" width="600" height="1500" viewBox="0 0 600 1500" perserveAspectRatio="xMinYMid"></svg>
+ 					</div>
                  </div>
                 </div>
                 
@@ -104,5 +146,12 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- d3.js loading -->
     <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+    
+    <script src='https://api.tiles.mapbox.com/mapbox.js/v2.2.4/mapbox.js'></script>
+    <script type="text/javascript" src="http://perthurbanist.com/govhack/2016/data/sa3.js"></script>
+    <script src="js/maps.js"></script>
+    <!-- d3.js Scripts -->
+    <script src="js/charts.js"></script>
   </body>
 </html>
